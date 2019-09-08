@@ -13,9 +13,9 @@ convert["input"] = "https://bachngocsach.com/reader/recent-cv"
 table.insert(data, convert)
 
 local suu = {}
-convert["title"] = "Sưu tầm"
-convert["script"] = "tab.lua"
-convert["input"] = "https://bachngocsach.com/reader/recent-st"
-table.insert(data, convert)
+suu["title"] = "Sưu tầm"
+suu["script"] = "tab.lua"
+suu["input"] = "https://bachngocsach.com/reader/recent-st"
+table.insert(data, suu)
 
 return data

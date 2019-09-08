@@ -1,6 +1,11 @@
 local url, next = ...
 
-local doc = http:request(url .. "?page=" .. next):html()
+local doc
+if next == nil then
+    doc = http:request(url):html()
+else
+    doc = http:request(url .. "?page=" .. next):html()
+end
 
 if doc ~= nil then
 
