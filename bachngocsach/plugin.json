@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "name": "Bạch Ngọc Sách",
+    "author": "Darkrai",
+    "version": 1,
+    "source": "https://bachngocsach.com/reader/",
+    "icon": "icon.png",
+    "regexp": "",
+    "description": ""
+  },
+  "script": {
+    "home": "home.lua",
+    "detail": "detail.lua",
+    "page": "page.lua",
+    "toc": "toc.lua",
+    "chap": "chap.lua",
+    "search": "search.lua",
+    "genre": "genre.lua"
+  },
+  "map": [
+    "chap.lua",
+    "detail.lua",
+    "genre.lua",
+    "home.lua",
+    "page.lua",
+    "search.lua",
+    "tab.lua",
+    "toc.lua"
+  ]
+}
