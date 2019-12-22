@@ -1,18 +1,10 @@
-local url, next = ...
-
-local doc
-if next == nil then
-    doc = http:request(url):html()
-else
-    doc = http:request(url .. "?page=" .. next):html()
+local url, page = ...
+if text:is_empty(page) then
+    page = 0
 end
-
+local doc = http:get(url .. "?page=" .. page):html()
 if doc ~= nil then
-
-    local data = {}
-
     local el = doc:select("ul.content-grid > li > div")
-
     local list = {}
     for i = 0, el:size() - 1 do
         local e = el:get(i)
@@ -25,11 +17,7 @@ if doc ~= nil then
         table.insert(list, item)
     end
 
-    local pageNext = num:to_int(regexp:find_last(doc:select("li.pager-next > a"):attr("href"), "page=(\\d+)"), -1)
-    if pageNext > 0 then
-        data["next"] = pageNext
-    end
-    data["data"] = list
-
-    return data
+    local pageNext = regexp:find_last(doc:select("li.pager-next > a"):attr("href"), "page=(\\d+)")
+    return response:success(list, pageNext)
 end
+return nil

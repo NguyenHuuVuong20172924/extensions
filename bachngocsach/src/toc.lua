@@ -1,12 +1,17 @@
 local url = ...
 
-local list = {}
-local doc = http:request(url):html()
-if doc ~= nul then
-    local el = doc:select("div.view-content ul div.mucluc-chuong a")
+local doc = http:get(url):html()
+if doc ~= nil then
+    local list = {}
+    local el = doc:select(".view-content .mucluc-chuong a")
     for i = 0, el:size() - 1 do
         local e = el:get(i)
-        table.insert(list, core:new_chapter(e:text(), e:attr("href"), "http://bachngocsach.com"))
+        local chap = {}
+        chap["name"] = e:text()
+        chap["url"] = e:attr("href")
+        chap["host"] = "http://bachngocsach.com"
+        table.insert(list, chap)
     end
+    return response:success(list)
 end
-return list
+return nil

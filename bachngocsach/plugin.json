@@ -5,26 +5,15 @@
     "version": 1,
     "source": "https://bachngocsach.com/reader/",
     "icon": "icon.png",
-    "regexp": "",
+    "regexp": "https://bachngocsach.com/reader/[^/]+/?$",
     "description": ""
   },
   "script": {
     "home": "home.lua",
+    "genre": "genre.lua",
     "detail": "detail.lua",
     "page": "page.lua",
     "toc": "toc.lua",
-    "chap": "chap.lua",
-    "search": "search.lua",
-    "genre": "genre.lua"
-  },
-  "map": [
-    "chap.lua",
-    "detail.lua",
-    "genre.lua",
-    "home.lua",
-    "page.lua",
-    "search.lua",
-    "tab.lua",
-    "toc.lua"
-  ]
+    "chap": "chap.lua"
+  }
 }

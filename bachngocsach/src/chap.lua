@@ -1,6 +1,6 @@
 local url = ...
-local doc = http:request(url):html()
+local doc = http:get(url):html()
 if doc ~= nil then
-    return doc:select("div#noidung"):html()
+    return response:success(doc:select("div#noidung"):html())
 end
 return nil

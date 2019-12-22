@@ -18,4 +18,4 @@ suu["script"] = "tab.lua"
 suu["input"] = "https://bachngocsach.com/reader/recent-st"
 table.insert(data, suu)
 
-return data
+return response:success(data)
