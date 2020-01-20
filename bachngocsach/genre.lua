@@ -9,7 +9,6 @@ if doc ~= nil then
         link["title"] = e:text()
         link["input"] = "https://bachngocsach.com" .. e:attr("href")
         link["script"] = "gen.lua"
-        link["filter"] = "genre_filter.lua"
         table.insert(genre, link)
     end
     return response:success(genre)

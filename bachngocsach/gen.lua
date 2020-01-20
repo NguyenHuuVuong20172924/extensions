@@ -1,9 +1,9 @@
-local url, page, filter = ...
+local url, page = ...
 
 if text:is_empty(page) then
     page = 0
 end
-local doc = http:get(url .. "/" .. filter["key"] .. "?page=" .. page):html()
+local doc = http:get(url .. "/?page=" .. page):html()
 
 if doc ~= nil then
     local el = doc:select(".view-content .term-row")

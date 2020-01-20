@@ -6,7 +6,9 @@
     "source": "https://bachngocsach.com/reader/",
     "icon": "icon.png",
     "regexp": "https://bachngocsach.com/reader/[^/]+/?$",
-    "description": ""
+    "description": "",
+    "local": "vi-VN",
+    "language": "lua"
   },
   "script": {
     "home": "home.lua",
