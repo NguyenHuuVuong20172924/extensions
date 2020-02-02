@@ -7,10 +7,10 @@
     {
       "name": "Bạch Ngọc Sách",
       "author": "Darkrai",
-      "path": "bachngocsach",
+      "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/bachngocsach/plugin.json",
       "version": 1,
       "source": "https://bachngocsach.com/reader/",
-      "icon": "icon.png",
+      "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/bachngocsach/icon.png",
       "description": ""
     }
   ]
