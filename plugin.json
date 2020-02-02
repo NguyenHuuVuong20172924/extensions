@@ -9,9 +9,18 @@
       "author": "Darkrai",
       "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/bachngocsach/plugin.json",
       "version": 1,
-      "source": "https://bachngocsach.com/reader/",
+      "source": "https://bachngocsach.com/reader",
       "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/bachngocsach/icon.png",
-      "description": ""
+      "description": "Đọc truyện trên trang bachngocsach.com/reader"
+    },
+    {
+      "name": "Truyện Full",
+      "author": "Darkrai",
+      "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/truyenfull/plugin.json",
+      "version": 1,
+      "source": "https://truyenfull.net",
+      "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/truyenfull/icon.png",
+      "description": "Đọc truyện trên trang Truyện Full"
     }
   ]
 }
