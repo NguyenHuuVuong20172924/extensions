@@ -21,6 +21,15 @@
       "source": "https://truyenfull.net",
       "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/truyenfull/icon.png",
       "description": "Đọc truyện trên trang Truyện Full"
+    },
+    {
+      "name": "Truyện CV",
+      "author": "Darkrai",
+      "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/truyencv/plugin.json",
+      "version": 1,
+      "source": "https://truyencv.com",
+      "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/truyencv/icon.png",
+      "description": "Đọc truyện trên trang Truyện CV"
     }
   ]
 }
