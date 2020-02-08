@@ -30,6 +30,15 @@
       "source": "https://truyencv.com",
       "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/truyencv/icon.png",
       "description": "Đọc truyện trên trang Truyện CV"
+    },
+    {
+      "name": "Tàng Thư Viện",
+      "author": "Darkrai",
+      "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/tangthuvien/plugin.json",
+      "version": 1,
+      "source": "https://truyen.tangthuvien.vn",
+      "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/tangthuvien/icon.png",
+      "description": "Đọc truyện trên trang Tàng Thư Viện"
     }
   ]
 }
