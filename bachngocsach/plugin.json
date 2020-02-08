@@ -14,6 +14,7 @@
   "script": {
     "home": "home.lua",
     "genre": "genre.lua",
+    "search": "search.lua",
     "detail": "detail.lua",
     "page": "page.lua",
     "toc": "toc.lua",
