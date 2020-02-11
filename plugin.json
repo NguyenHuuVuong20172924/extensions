@@ -39,6 +39,15 @@
       "source": "https://truyen.tangthuvien.vn",
       "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/tangthuvien/icon.png",
       "description": "Đọc truyện trên trang Tàng Thư Viện"
+    },
+    {
+      "name": "Truyện YY",
+      "author": "Darkrai",
+      "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/truyenyy/plugin.json",
+      "version": 1,
+      "source": "https://truyenyy.com",
+      "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/truyenyy/icon.png",
+      "description": "Đọc truyện trên trang Truyện YY"
     }
   ]
 }
