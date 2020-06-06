@@ -48,6 +48,15 @@
       "source": "https://truyenyy.com",
       "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/truyenyy/icon.png",
       "description": "Đọc truyện trên trang Truyện YY"
+    },
+    {
+      "name": "Wiki Dịch",
+      "author": "Darkrai",
+      "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/wikidich/plugin.json",
+      "version": 1,
+      "source": "https://wikidich.com",
+      "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/wikidich/icon.png",
+      "description": "Đọc truyện trên trang Wiki Dịch"
     }
   ]
 }
