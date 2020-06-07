@@ -57,6 +57,15 @@
       "source": "https://wikidich.com",
       "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/wikidich/icon.png",
       "description": "Đọc truyện trên trang Wiki Dịch"
+    },
+    {
+      "name": "SS Truyện",
+      "author": "Darkrai",
+      "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/sstruyen/plugin.json",
+      "version": 1,
+      "source": "https://sstruyen.com",
+      "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/sstruyen/icon.png",
+      "description": "Đọc truyện trên trang SS Truyện"
     }
   ]
 }
