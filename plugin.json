@@ -75,6 +75,15 @@
       "source": "https://truyenqq.com",
       "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/truyenqq/icon.png",
       "description": "Đọc truyện trên trang Truyện QQ"
+    },
+    {
+      "name": "Chivi",
+      "author": "Darkrai",
+      "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/chivi/plugin.json",
+      "version": 1,
+      "source": "https://chivi.xyz",
+      "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/chivi/icon.png",
+      "description": "Đọc truyện trên trang Chivi"
     }
   ]
 }
