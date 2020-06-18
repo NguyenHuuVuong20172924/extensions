@@ -9,7 +9,8 @@
     "regexp": "(www.)?nettruyen.com/truyen-tranh/[^/]+/?$",
     "description": "Đọc truyện trên trang Net Truyện",
     "local": "vi-VN",
-    "language": "javascript"
+    "language": "javascript",
+    "type": "comic"
   },
   "script": {
     "home": "home.js",
