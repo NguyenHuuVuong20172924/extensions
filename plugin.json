@@ -84,6 +84,15 @@
       "source": "https://chivi.xyz",
       "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/chivi/icon.png",
       "description": "Đọc truyện trên trang Chivi"
+    },
+    {
+      "name": "Net Truyện",
+      "author": "Darkrai",
+      "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/nettruyen/plugin.json",
+      "version": 1,
+      "source": "http://www.nettruyen.com",
+      "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/nettruyen/icon.png",
+      "description": "Đọc truyện trên trang Net Truyện"
     }
   ]
 }
