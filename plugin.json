@@ -59,6 +59,15 @@
       "description": "Đọc truyện trên trang Wiki Dịch"
     },
     {
+      "name": "Koanchay",
+      "author": "Darkrai",
+      "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/koanchay/plugin.json",
+      "version": 1,
+      "source": "https://koanchay.com",
+      "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/koanchay/icon.png",
+      "description": "Đọc truyện trên trang Koanchay"
+    },
+    {
       "name": "SS Truyện",
       "author": "Darkrai",
       "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/sstruyen/plugin.json",
