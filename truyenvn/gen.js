@@ -5,7 +5,7 @@ function execute(url, page) {
     var next = doc.select(".z-pagination").select(".next").select("a").attr("href").match(/page\/(\d+)/)
     if (next) next = next[1]
 
-    const el = doc.select(".comics .entry")
+    const el = doc.select(".comics-grid .entry")
 
     const data = [];
     for (var i = 0; i < el.size(); i++) {
