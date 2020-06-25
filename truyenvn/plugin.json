@@ -9,7 +9,8 @@
     "regexp": "(www.)?truyenvn.com/[^/]+/?$",
     "description": "Đọc truyện trên trang Truyện VN",
     "local": "vi-VN",
-    "language": "javascript"
+    "language": "javascript",
+	"type": "comic"
   },
   "script": {
     "home": "home.js",
