@@ -120,6 +120,15 @@
       "source": "http://www.nettruyen.com",
       "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/truyencuatui/icon.png",
       "description": "Đọc truyện trên trang Truyện Của Tui"
+    },
+    {
+      "name": "Wattpad",
+      "author": "Darkrai",
+      "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/wattpad/plugin.json",
+      "version": 1,
+      "source": "http://www.nettruyen.com",
+      "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/wattpad/icon.png",
+      "description": "Đọc truyện trên trang Wattpad"
     }
   ]
 }
