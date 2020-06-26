@@ -111,6 +111,15 @@
       "source": "http://www.nettruyen.com",
       "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/truyenvn/icon.png",
       "description": "Đọc truyện trên trang Truyện VN"
+    },
+    {
+      "name": "Truyện Của Tui",
+      "author": "Darkrai",
+      "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/truyencuatui/plugin.json",
+      "version": 1,
+      "source": "http://www.nettruyen.com",
+      "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/truyencuatui/icon.png",
+      "description": "Đọc truyện trên trang Truyện Của Tui"
     }
   ]
 }
