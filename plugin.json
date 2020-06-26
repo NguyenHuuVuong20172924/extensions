@@ -129,6 +129,15 @@
       "source": "https://www.wattpad.com",
       "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/wattpad/icon.png",
       "description": "Đọc truyện trên trang Wattpad"
+    },
+    {
+      "name": "Web Truyện",
+      "author": "Darkrai",
+      "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/webtruyen/plugin.json",
+      "version": 1,
+      "source": "https://webtruyen.com",
+      "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/webtruyen/icon.png",
+      "description": "Đọc truyện trên trang Web Truyện"
     }
   ]
 }
