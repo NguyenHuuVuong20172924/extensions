@@ -108,7 +108,7 @@
       "author": "Darkrai",
       "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/truyenvn/plugin.json",
       "version": 1,
-      "source": "http://www.nettruyen.com",
+      "source": "https://truyenvn.com",
       "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/truyenvn/icon.png",
       "description": "Đọc truyện trên trang Truyện VN"
     },
@@ -117,7 +117,7 @@
       "author": "Darkrai",
       "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/truyencuatui/plugin.json",
       "version": 1,
-      "source": "http://www.nettruyen.com",
+      "source": "https://truyencuatui.net",
       "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/truyencuatui/icon.png",
       "description": "Đọc truyện trên trang Truyện Của Tui"
     },
@@ -126,7 +126,7 @@
       "author": "Darkrai",
       "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/wattpad/plugin.json",
       "version": 1,
-      "source": "http://www.nettruyen.com",
+      "source": "https://www.wattpad.com",
       "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/wattpad/icon.png",
       "description": "Đọc truyện trên trang Wattpad"
     }
