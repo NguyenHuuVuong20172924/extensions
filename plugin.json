@@ -18,7 +18,7 @@
       "author": "Darkrai",
       "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/truyenfull/plugin.json",
       "version": 1,
-      "source": "https://truyenfull.net",
+      "source": "https://truyenfull.vn",
       "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/truyenfull/icon.png",
       "description": "Đọc truyện trên trang Truyện Full"
     },
@@ -138,6 +138,15 @@
       "source": "https://webtruyen.com",
       "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/webtruyen/icon.png",
       "description": "Đọc truyện trên trang Web Truyện"
+    },
+    {
+      "name": "nHentai",
+      "author": "Darkrai",
+      "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/nhentai/plugin.json",
+      "version": 1,
+      "source": "https://nhentai.net",
+      "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/nhentai/icon.png",
+      "description": "Đọc truyện trên trang nHentai"
     }
   ]
 }
