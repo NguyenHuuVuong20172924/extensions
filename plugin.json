@@ -147,6 +147,15 @@
       "source": "https://nhentai.net",
       "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/nhentai/icon.png",
       "description": "Đọc truyện trên trang nHentai"
+    },
+    {
+      "name": "Hako Novel",
+      "author": "Darkrai",
+      "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/hako/plugin.json",
+      "version": 1,
+      "source": "https://ln.hako.re",
+      "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/hako/icon.png",
+      "description": "Đọc truyện trên trang Hako"
     }
   ]
 }
