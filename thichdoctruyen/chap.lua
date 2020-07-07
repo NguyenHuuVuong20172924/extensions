@@ -5,6 +5,6 @@ if doc ~= nil then
     if (string.len(htm) < 2000 and text:contains(htm, "login/login")) then
         return nil
     end
-    return response:success(htm)
+    return response:success(text:replace(htm, "&nbsp;", ""))
 end
 return nil
