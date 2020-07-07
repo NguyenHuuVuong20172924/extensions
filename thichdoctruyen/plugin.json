@@ -6,7 +6,7 @@
     "source": "https://thichdoctruyen.com",
     "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/thichdoctruyen/icon.png",
     "url": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/thichdoctruyen/plugin.zip",
-    "regexp": "(www.)?thichdoctruyen.com/doc-truyen//[^/]+\\d+$",
+    "regexp": "(www.)?thichdoctruyen.com/doc-truyen/[^/]+\\d+$",
     "description": "Đọc truyện trên trang Thích Đọc Truyện",
     "local": "vi-VN",
     "language": "lua"
