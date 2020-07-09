@@ -165,6 +165,15 @@
       "source": "https://thichdoctruyen.com",
       "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/thichdoctruyen/icon.png",
       "description": "Đọc truyện trên trang Thích Đọc Truyện"
+    },
+    {
+      "name": "Sàn Truyện",
+      "author": "Darkrai",
+      "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/santruyen/plugin.json",
+      "version": 1,
+      "source": "https://santruyen.com",
+      "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/santruyen/icon.png",
+      "description": "Đọc truyện trên trang Sàn Truyện"
     }
   ]
 }
