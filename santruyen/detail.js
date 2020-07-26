@@ -9,7 +9,7 @@ function execute(url) {
         author: author.text(),
         description: doc.select(".storyContent").html(),
         detail: doc.select(".storyInfo .column-half").html(),
-        host: "https://santruyen.com",
+        host: "http://santruyen.com",
         ongoing: doc.select(".storyInfo .column-half").html().indexOf("Đang cập nhật") >= 0
     });
 }

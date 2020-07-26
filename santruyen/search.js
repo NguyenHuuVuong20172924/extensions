@@ -17,7 +17,7 @@ function execute(key, page) {
             link: e.select("a").first().attr("href"),
             cover: e.select("img").first().attr("src"),
             description: e.select(".meta-chapter").text(),
-            host: "https://santruyen.com"
+            host: "http://santruyen.com"
         })
     }
 

@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Wiki Dịch",
     "author": "Darkrai",
-    "version": 2,
+    "version": 3,
     "source": "https://wikidich.com/",
     "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/wikidich/icon.png",
     "url": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/wikidich/plugin.zip",
@@ -21,6 +21,6 @@
   },
   "config": {
     "thread_num": 1,
-    "delay": 2000
+    "delay": 1000
   }
 }
