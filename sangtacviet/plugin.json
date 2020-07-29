@@ -6,7 +6,7 @@
     "source": "https://sangtacviet.com",
     "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/sangtacviet/icon.png",
     "url": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/sangtacviet/plugin.zip",
-    "regexp": "(www.)?https://sangtacviet.com/truyen/[a-z]+/\\d+/\\d+/?$",
+    "regexp": "(www.)?https://sangtacviet.com/[a-z]+/[a-z]+/\\d+/\\d+/?$",
     "description": "Đọc truyện trên trang Sáng Tác Việt",
     "local": "vi-VN",
     "language": "javascript",
