@@ -31,6 +31,7 @@ function execute(url) {
 
     var htm = json["data"];
     var info = json["info"];
+    var err = json["err"];
     if (htm) {
         var chapterName = json["chaptername"];
         htm = htm.replace(/&(nbsp|amp|quot|lt|gt);/g, "");
@@ -41,5 +42,7 @@ function execute(url) {
         return Response.success(htm, chapterName);
     } else if (info) {
         return Response.error(info);
+    } if (err) {
+        return Response.error(err);
     }
 }
