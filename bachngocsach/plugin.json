@@ -1,22 +1,23 @@
 {
     "metadata": {
-        "regexp": "bachngocsach.com/reader/[^/]+/?$",
-        "author": "Darkrai",
         "name": "Bạch Ngọc Sách",
-        "description": "Đọc truyện trên trang bachngocsach.com/reader",
-        "language": "lua",
-        "source": "https://bachngocsach.com/reader/",
-        "priority": 1,
+        "author": "Darkrai",
         "version": 1,
-        "local": "vi-VN"
+        "source": "https://bachngocsach.com/reader/",
+        "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/bachngocsach/icon.png",
+        "url": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/bachngocsach/plugin.zip",
+        "regexp": "bachngocsach.com/reader/[^/]+/?$",
+        "description": "Đọc truyện trên trang bachngocsach.com/reader",
+        "local": "vi-VN",
+        "language": "lua"
     },
     "script": {
-        "search": "search.lua",
+        "home": "home.lua",
         "genre": "genre.lua",
-        "toc": "toc.lua",
-        "chap": "chap.lua",
+        "search": "search.lua",
         "detail": "detail.lua",
         "page": "page.lua",
-        "home": "home.lua"
+        "toc": "toc.lua",
+        "chap": "chap.lua"
     }
 }
