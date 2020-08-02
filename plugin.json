@@ -176,15 +176,6 @@
       "description": "Đọc truyện trên trang Sàn Truyện"
     },
     {
-      "name": "Sáng Tác Việt",
-      "author": "Darkrai",
-      "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/sangtacviet/plugin.json",
-      "version": 1,
-      "source": "https://sangtacviet.com",
-      "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/sangtacviet/icon.png",
-      "description": "Đọc truyện trên trang Sáng Tác Việt"
-    },
-    {
       "name": "Blog Truyện",
       "author": "Darkrai",
       "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/blogtruyen/plugin.json",
