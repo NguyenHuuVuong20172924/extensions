@@ -6,7 +6,7 @@
     "source": "https://chivi.xyz/",
     "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/chivi/icon.png",
     "url": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/chivi/plugin.zip",
-    "regexp": "(www.)?chivi.xyz/[0-9a-z-]+/?$",
+    "regexp": "(www.)?chivi.xyz/[^/+]+/?$",
     "description": "Đọc truyện trên trang Chivi",
     "local": "vi-VN",
     "language": "lua",

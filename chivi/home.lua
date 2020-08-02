@@ -3,7 +3,7 @@ local data = {}
 local tab1 = {
     ["title"] = "Vừa xem",
     ["script"] = "gen.lua",
-    ["input"] = "https://chivi.xyz/_books"
+    ["input"] = "https://chivi.xyz/_books?"
 }
 table.insert(data, tab1)
 
