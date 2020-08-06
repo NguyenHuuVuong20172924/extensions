@@ -11,8 +11,8 @@ function execute(url, page) {
     for (var i = 0; i < el.size(); i++) {
         var e = el.get(i);
         data.push({
-            name: e.select("h3.name a").first().text(),
-            link: e.select("h3.name a").first().attr("href"),
+            name: e.select(".name a").first().text(),
+            link: e.select(".name a").first().attr("href"),
             cover: e.select("img").first().attr("data-src"),
             description: e.select("h4 a").text(),
             host: "https://truyenvn.com"
