@@ -183,6 +183,15 @@
       "source": "https://blogtruyen.vn",
       "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/blogtruyen/icon.png",
       "description": "Đọc truyện trên trang Blog Truyện"
+    },
+    {
+      "name": "TruyệnVKL",
+      "author": "Darkrai",
+      "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/truyenvkl/plugin.json",
+      "version": 1,
+      "source": "https://truyenvkl.com",
+      "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/truyenvkl/icon.png",
+      "description": "Đọc truyện trên trang TruyệnVKL"
     }
   ]
 }
