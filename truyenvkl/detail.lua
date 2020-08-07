@@ -7,7 +7,7 @@ if doc ~= nil then
     book["host"] = "https://truyenvkl.com"
     book["author"] = doc:select(".thong_tin a"):first():text()
     book["description"] = doc:select(".gioi_thieu"):html()
-    book["detail"] = doc:select(".thong_tin"):html()
+    book["detail"] = doc:select(".thong_tin p"):html()
     book["ongoing"] = text:contains(doc:select(".thong_tin"):html(), "Đang Cập Nhật")
     return response:success(book)
 end
