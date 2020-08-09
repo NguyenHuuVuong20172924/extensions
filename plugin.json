@@ -192,6 +192,15 @@
       "source": "https://truyenvkl.com",
       "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/truyenvkl/icon.png",
       "description": "Đọc truyện trên trang TruyệnVKL"
+    },
+    {
+      "name": "Gác Sách",
+      "author": "Darkrai",
+      "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/gacsach/plugin.json",
+      "version": 1,
+      "source": "https://gacsach.com",
+      "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/gacsach/icon.png",
+      "description": "Đọc truyện trên trang Gác Sách"
     }
   ]
 }
