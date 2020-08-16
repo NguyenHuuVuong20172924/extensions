@@ -16,6 +16,7 @@
     "toc": "toc.lua",
     "chap": "chap.lua",
     "home": "home.lua",
-    "genre": "genre.lua"
+    "genre": "genre.lua",
+    "search": "search.lua"
   }
 }
