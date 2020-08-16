@@ -221,7 +221,7 @@
       "description": "Đọc truyện trên trang Mê Truyện Chữ"
     },
     {
-      "name": "Mê ĐỌc Truyện Chữ",
+      "name": "Mê Đọc Truyện Chữ",
       "author": "Darkrai",
       "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/medoctruyenchu/plugin.json",
       "version": 1,
@@ -230,7 +230,7 @@
       "description": "Đọc truyện trên trang Mê Đọc Truyện Chữ"
     },
     {
-      "name": "Mê Đoc Truyện Tranh",
+      "name": "Mê Đọc Truyện Tranh",
       "author": "Darkrai",
       "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/medoctruyentranh/plugin.json",
       "version": 1,
