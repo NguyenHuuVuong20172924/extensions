@@ -48,4 +48,4 @@ table.insert(genre, { ["title"] = "Suspense", ["input"] = "https://ln.hako.re/th
 table.insert(genre, { ["title"] = "Tragedy", ["input"] = "https://ln.hako.re/the-loai/tragedy", ["script"] = "gen.lua" })
 table.insert(genre, { ["title"] = "Web Novel", ["input"] = "https://ln.hako.re/the-loai/web-novel", ["script"] = "gen.lua" })
 table.insert(genre, { ["title"] = "Yuri", ["input"] = "https://ln.hako.re/the-loai/yuri", ["script"] = "gen.lua" })
-return genre
+return response:success(genre)

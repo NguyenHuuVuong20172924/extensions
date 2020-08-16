@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Nữ Hiệp",
     "author": "Darkrai",
-    "version": 1,
+    "version": 2,
     "source": "https://nuhiep.com",
     "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/nuhiep/icon.png",
     "url": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/nuhiep/plugin.zip",
@@ -15,6 +15,7 @@
     "detail": "detail.lua",
     "toc": "toc.lua",
     "chap": "chap.lua",
-    "home": "home.lua"
+    "home": "home.lua",
+    "genre": "genre.lua"
   }
 }
