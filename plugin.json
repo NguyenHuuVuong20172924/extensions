@@ -219,6 +219,24 @@
       "source": "https://metruyenchu.com",
       "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/metruyenchu/icon.png",
       "description": "Đọc truyện trên trang Mê Truyện Chữ"
+    },
+    {
+      "name": "Mê ĐỌc Truyện Chữ",
+      "author": "Darkrai",
+      "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/medoctruyenchu/plugin.json",
+      "version": 1,
+      "source": "https://www.medoctruyenchu.net",
+      "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/medoctruyenchu/icon.png",
+      "description": "Đọc truyện trên trang Mê Đọc Truyện Chữ"
+    },
+    {
+      "name": "Mê Đoc Truyện Tranh",
+      "author": "Darkrai",
+      "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/medoctruyentranh/plugin.json",
+      "version": 1,
+      "source": "https://www.medoctruyentranh.net",
+      "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/medoctruyentranh/icon.png",
+      "description": "Đọc truyện trên trang Mê Đọc Truyện Tranh"
     }
   ]
 }
