@@ -8,8 +8,8 @@ if doc ~= nil then
         ["cover"] = doc:select(".detail_info img"):first():attr("src"),
         ["host"] = "https://www.medoctruyenchu.net",
         ["author"] = info:select(".other_infos font"):first():text(),
-        ["description"] = info:select(".other_infos"):first():html(),
-        ["detail"] = info:select(".summary"):last():html(),
+        ["description"] = info:select(".summary"):first():html(),
+        ["detail"] = info:select(".other_infos"):last():html(),
         ["ongoing"] = not text:contains(info:html(), "Đã kết thúc"),
         ["url"] = text:replace(url, "m.medoctruyenchu.net", "www.medoctruyenchu.net")
     }
