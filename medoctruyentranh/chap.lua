@@ -1,7 +1,15 @@
 local url = ...
 
-local doc = http:get(url):html()
-if doc ~= nil then
-    return response:success(doc:select(".content-body"))
+local htm = http:get(url):string()
+if htm ~= nil then
+    local data = json:to_table(regexp:find(htm, "<script.*?type=\"application/json\">(.*?)</script>"))
+    local imgs = data["props"]["pageProps"]["initialState"]["read"]["detail_item"]["elements"]
+
+    local imgsList = {}
+
+    for _, v in pairs(imgs) do
+        table.insert(imgsList, v["content"])
+    end
+    return response:success(imgsList)
 end
 return nil
