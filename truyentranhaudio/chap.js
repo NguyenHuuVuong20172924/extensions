@@ -1,16 +1,11 @@
 function execute(url) {
     var doc = Http.get(url).html();
-
-    var el = doc.select("#chapters .chapters a")
+    var el = doc.select(".reading-content img");
+    
     const data = [];
     for (var i = 0; i < el.size(); i++) {
         var e = el.get(i);
-        data.push({
-            name: e.text(),
-            url: e.attr("href"),
-            host: "https://webtruyen.com"
-        })
+        data.push(e.attr("src"));
     }
-
     return Response.success(data);
 }

@@ -134,7 +134,7 @@
       "name": "Web Truyện",
       "author": "Darkrai",
       "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/webtruyen/plugin.json",
-      "version": 1,
+      "version": 2,
       "source": "https://webtruyen.com",
       "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/webtruyen/icon.png",
       "description": "Đọc truyện trên trang Web Truyện"
@@ -255,6 +255,15 @@
       "source": "https://beeng.net",
       "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/beeng/icon.png",
       "description": "Đọc truyện trên trang Beeng.net"
+    },
+    {
+      "name": "Truyện Tranh Audio",
+      "author": "Darkrai",
+      "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/truyentranhaudio/plugin.json",
+      "version": 1,
+      "source": "https://truyentranhaudio.online",
+      "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/truyentranhaudio/icon.png",
+      "description": "Đọc truyện trên trang truyentranhaudio.online"
     }
   ]
 }
