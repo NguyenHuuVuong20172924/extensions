@@ -1,26 +1,27 @@
 local key, page = ...
 if text:is_empty(page) then
-    page = 1
+    page = '0'
 end
-local doc = http:get("https://truyenfull.vn/tim-kiem/?tukhoa=" .. key .. "&page=" .. page):html()
+local doc = http:get("https://gacsach.com/find-book"):params({
+    ["title"] = key,
+    ["page"] = page
+}):html()
 
 if doc ~= nil then
-    local el = doc:select(".list-truyen div[itemscope]")
+    local el = doc:select(".view-content a")
     local novelList = {}
     local next
 
-    local last = doc:select(".pagination"):last()
+    local last = doc:select(".pager li.pager-current + li"):last()
     if last ~= nil then
-        next = regexp:find(last:html(), "trang-(\\d+).*?glyphicon-menu-right")
+        next = last:select("a"):text()
     end
     for i = 1, el:size() do
         local e = el:get(i - 1)
         local novel = {}
-        novel["name"] = e:select(".truyen-title > a"):text()
-        novel["link"] = e:select(".truyen-title > a"):attr("href")
-        novel["description"] = e:select(".author"):text()
-        novel["cover"] = e:select("[data-image]"):attr("data-image")
-        novel["host"] = "https://truyenfull.vn"
+        novel["name"] = e:text()
+        novel["link"] = e:attr("href")
+        novel["host"] = "https://gacsach.com"
         table.insert(novelList, novel)
     end
 

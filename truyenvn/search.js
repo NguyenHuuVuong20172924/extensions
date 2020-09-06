@@ -1,7 +1,7 @@
 function execute(key, page) {
     const doc = Http.get("https://truyenvn.com/danh-sach-truyen?q=" + key).html();
 
-    const el = doc.select(".grid-items .inner-item")
+    const el = doc.select(".comics-grid .entry")
 
     const data = [];
     for (var i = 0; i < el.size(); i++) {
