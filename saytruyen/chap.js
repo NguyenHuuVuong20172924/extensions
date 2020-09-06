@@ -5,7 +5,11 @@ function execute(url) {
     for (var i = 0; i < el.size(); i++) {
         var link = el.get(i).attr("src");
         if (!link.startsWith("http")) {
-            link = "https://saytruyen.com" + link;
+            if (link.startsWith("/")) {
+                link = "https://saytruyen.com" + link;
+            } else {
+                link = "https://saytruyen.com/" + link;
+            }
         }
         imgs.push(link)
     }
