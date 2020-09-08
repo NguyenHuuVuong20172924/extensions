@@ -2,11 +2,11 @@
   "metadata": {
     "name": "Gác Sách",
     "author": "Darkrai",
-    "version": 2,
+    "version": 3,
     "source": "https://gacsach.com",
     "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/gacsach/icon.png",
     "url": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/gacsach/plugin.zip",
-    "regexp": "(www.)?gacsach.com/[^/]+/?$",
+    "regexp": "(www.)?gacsach.com(/doc-sach-truc-tuyen/\\d+/.*?.html$|/[^/]+/?$)",
     "description": "Đọc truyện trên trang Gác Sách",
     "local": "vi-VN",
     "language": "lua"
