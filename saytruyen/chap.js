@@ -4,6 +4,9 @@ function execute(url) {
     var imgs = [];
     for (var i = 0; i < el.size(); i++) {
         var link = el.get(i).attr("src");
+        if (!link) {
+            link = el.get(i).attr("data-original")
+        }
         if (!link.startsWith("http")) {
             if (link.startsWith("/")) {
                 link = "https://saytruyen.com" + link;
@@ -11,7 +14,7 @@ function execute(url) {
                 link = "https://saytruyen.com/" + link;
             }
         }
-        imgs.push(link)
+        imgs.push(link.trim())
     }
     return Response.success(imgs);
 }
