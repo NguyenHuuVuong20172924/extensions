@@ -1,8 +1,7 @@
 function execute(url) {
     var doc = Http.get(url).html();
     var e = doc.select("div#motsach_content_body");
-    var dropCap = e.select("div#dropcap").text();
-    //  e.select("div#dropcap").remove();
+    e.select("div#dropcap").tagName("span");
     var htm = e.html();
 
     var st = htm.indexOf("<div class=\"ms_text\">", htm.lastIndexOf("ms_chapter"));
@@ -12,5 +11,5 @@ function execute(url) {
     } else {
         htm = "";
     }
-    return Response.success(htm);
+    return Response.success(htm.trim());
 }

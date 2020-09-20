@@ -1,11 +1,11 @@
 function execute(url, page) {
     const doc = Http.get(url).html()
 
-    const el = doc.select("#motsach_content_body .ms_list_item a")
+    const el = doc.select("#motsach_content_body .ms_list_item")
 
     const data = [];
-    for (var i = 0; i < el.size(); i++) {
-        var e = el.get(i);
+    for (var i = 1; i < el.size(); i++) {
+        var e = el.get(i).select("a");
         var cover = e.attr("href").match(/story=(.*?)$/);
         data.push({
             name: e.text(),
