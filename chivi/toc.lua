@@ -2,7 +2,7 @@ local url = ...
 local doc = http:get(url):html()
 if doc ~= nil then
     local list = {}
-    local sources = regexp:find(doc:html(), "href=\"(.*?seed=.*?)\"")
+    local sources = regexp:find(doc:html(), "href=\"([^ ]+seed=.*?).*?seed=.*?)\"")
     local slug = regexp:find(sources, "~(.*?)\\?")
     local source = regexp:find(sources, "seed=(.*?)$")
     local json = http:get("https://chivi.xyz/_chaps/" .. slug ..  "/" .. source .. "?mode=0"):table()
