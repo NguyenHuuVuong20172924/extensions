@@ -3,9 +3,9 @@ function execute(url) {
     var el = doc.select(".pictures img");
     var imgs = [];
     for (var i = 0; i < el.size(); i++) {
-        var link = el.get(i).attr("src");
+        var link = el.get(i).attr("data-original");
         if (!link) {
-            link = el.get(i).attr("data-original")
+            link = el.get(i).attr("src")
         }
         if (!link.startsWith("http")) {
             if (link.startsWith("/")) {
