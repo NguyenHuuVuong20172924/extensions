@@ -11,7 +11,7 @@ if doc ~= nil then
     for k, v in ipairs(data) do
         local chap = {
             ["name"] = v["vi_title"],
-            ["url"] = url .. "/" .. v["url_slug"] .. "-" ..source .. "-" .. v["scid"],
+            ["url"] = url .. "/-" .. v["url_slug"] .. "-" ..source .. "-" .. v["scid"],
             ["host"] = "https://chivi.xyz/",
         }
         table.insert(list, chap)
