@@ -291,6 +291,15 @@
       "source": "https://isach.info",
       "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/isach/icon.png",
       "description": "Đọc truyện trên trang iSach"
+    },
+    {
+      "name": "QManga",
+      "author": "Darkrai",
+      "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/qmanga/plugin.json",
+      "version": 1,
+      "source": "https://qmanga.net",
+      "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/qmanga/icon.png",
+      "description": "Đọc truyện trên trang QManga"
     }
   ]
 }
