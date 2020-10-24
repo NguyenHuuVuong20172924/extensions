@@ -27,7 +27,9 @@ function execute(url) {
             var lastNewIndex = newImgs.length - j - 1;
             if (lastNewIndex >= 0) {
                 var img = newImgs[lastNewIndex].trim();
-                if (img.startsWith("://")) {
+                if (img.startsWith("s://")) {
+                    img = "http" + img;
+                } else if (img.startsWith("://")) {
                     img = "http" + img;
                 } else if (img.startsWith("/")) {
                     img = "https://saytruyen.com" + img;
