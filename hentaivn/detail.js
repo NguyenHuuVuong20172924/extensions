@@ -10,10 +10,15 @@ function execute(url) {
     }
 
     if (isMobile) {
+        doc.select("noscript").remove();
         var info = doc.select(".content-row");
+        var img = info.select(".content-images-1 img").first().attr("data-cfsrc")
+        if (img) {
+            img = info.select(".content-images-1 img").first().attr("src")
+        }
         return Response.success({
             name: info.select(".content-info a").first().text(),
-            cover: info.select(".content-images-1 img").first().attr("data-cfsrc"),
+            cover: img,
             author: info.select("a[href~=tacgia]").first().text(),
             description: info.select(".content-info").html(),
             host: "https://hentaivn.net",

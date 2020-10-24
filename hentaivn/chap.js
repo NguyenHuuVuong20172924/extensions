@@ -15,7 +15,11 @@ function execute(url) {
 
         for (var i = 0; i < el.size(); i++) {
             var e = el.get(i);
-            data.push(e.attr("data-cfsrc"));
+            var img = e.attr("data-cfsrc");
+            if (img) {
+                img = e.attr("src")
+            }
+            data.push(img);
 
         }
     } else {
