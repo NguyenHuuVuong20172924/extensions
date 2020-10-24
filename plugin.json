@@ -269,7 +269,7 @@
       "name": "Say Truyện",
       "author": "Darkrai",
       "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/saytruyen/plugin.json",
-      "version": 3,
+      "version": 4,
       "source": "https://saytruyen.com",
       "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/saytruyen/icon.png",
       "description": "Đọc truyện trên trang Say Truyện"
