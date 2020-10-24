@@ -4,7 +4,7 @@ function execute(url, page) {
 
     var next = doc.select(".pagination").select("li:has(b) + li a").text()
 
-    const el = doc.select(".block-item li.item")
+    const el = doc.select(".main .block-item li.item")
 
     const data = [];
     for (var i = 0; i < el.size(); i++) {
@@ -12,7 +12,7 @@ function execute(url, page) {
         data.push({
             name: e.select(".box-description a").first().text(),
             link: e.select(".box-description a").first().attr("href"),
-            cover: e.select(".box-cover img").first().attr("src"),
+            cover: e.select(".box-cover img").first().attr("data-src"),
             description: e.select(".box-description p").first().text().replace( e.select(".box-description a").first().text() + " - ", ""),
             host: "https://hentaivn.net"
         })

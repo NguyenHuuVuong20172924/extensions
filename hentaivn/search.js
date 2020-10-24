@@ -12,7 +12,7 @@ function execute(key, page) {
         data.push({
             name: e.select(".box-description a").first().text(),
             link: e.select(".box-description a").first().attr("href"),
-            cover: e.select(".box-cover img").first().attr("src"),
+            cover: e.select(".box-cover img").first().attr("data-src"),
             description: e.select(".box-description p").first().text().replace( e.select(".box-description a").first().text() + " - ", ""),
             host: "https://hentaivn.net"
         })
