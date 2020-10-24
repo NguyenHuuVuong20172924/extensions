@@ -13,7 +13,7 @@ function execute(url) {
         doc.select("noscript").remove();
         var info = doc.select(".content-row");
         var img = info.select(".content-images-1 img").first().attr("data-cfsrc")
-        if (img) {
+        if (!img) {
             img = info.select(".content-images-1 img").first().attr("src")
         }
         return Response.success({

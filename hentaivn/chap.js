@@ -16,7 +16,7 @@ function execute(url) {
         for (var i = 0; i < el.size(); i++) {
             var e = el.get(i);
             var img = e.attr("data-cfsrc");
-            if (img) {
+            if (!img) {
                 img = e.attr("src")
             }
             data.push(img);
