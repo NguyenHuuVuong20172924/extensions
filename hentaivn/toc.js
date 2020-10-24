@@ -1,6 +1,6 @@
 function execute(url) {
-    http = Http.get(url);
-    var doc = doc.html();
+    const http = Http.get(url);
+    var doc = http.html();
 
     var cookies = http.cookie();
 
