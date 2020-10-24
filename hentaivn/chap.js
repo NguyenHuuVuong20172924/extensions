@@ -1,12 +1,29 @@
 function execute(url) {
-    var doc = Http.get(url).html();
-    var el = doc.select("#image img");
-    
+    const http = Http.get(url);
+    const doc = http.html();
+    var cookies = http.cookie();
+
+    var isMobile = false;
+
+    if (cookies) {
+        isMobile = cookies.indexOf("mobile=1") > 0;
+    }
     var data = [];
-    for (var i = 0; i < el.size(); i++) {
-        var e = el.get(i);
-        data.push(e.attr("src"));
-        
+    if (isMobile) {
+        doc.select("noscript").remove();
+        var el = doc.select("#image img");
+
+        for (var i = 0; i < el.size(); i++) {
+            var e = el.get(i);
+            data.push(e.attr("data-cfsrc"));
+
+        }
+    } else {
+        var el = doc.select("#image img");
+        for (var i = 0; i < el.size(); i++) {
+            var e = el.get(i);
+            data.push(e.attr("src"));
+        }
     }
     return Response.success(data);
 }
