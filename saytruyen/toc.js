@@ -3,7 +3,7 @@ function execute(url) {
 
     var el = doc.select("#list_container").select("a");
     const data = [];
-    for (var i = 0; i < el.size(); i++) {
+    for (var i = el.size() - 1; i >= 0; i--) {
         var e = el.get(i);
         data.push({
             name: e.text(),
