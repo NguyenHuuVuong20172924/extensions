@@ -26,7 +26,7 @@
       "name": "Truyện CV",
       "author": "Darkrai",
       "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/truyencv/plugin.json",
-      "version": 2,
+      "version": 3,
       "source": "https://truyencv.com",
       "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/truyencv/icon.png",
       "description": "Đọc truyện trên trang Truyện CV"
@@ -206,7 +206,7 @@
       "name": "Nữ Hiệp",
       "author": "Darkrai",
       "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/nuhiep/plugin.json",
-      "version": 3,
+      "version": 4,
       "source": "https://nuhiep.com",
       "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/nuhiep/icon.png",
       "description": "Đọc truyện trên trang Nữ Hiệp"
@@ -215,10 +215,19 @@
       "name": "Mê Truyện Chữ",
       "author": "Darkrai",
       "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/metruyenchu/plugin.json",
-      "version": 3,
+      "version": 4,
       "source": "https://metruyenchu.com",
       "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/metruyenchu/icon.png",
       "description": "Đọc truyện trên trang Mê Truyện Chữ"
+    },
+    {
+      "name": "vTruyện",
+      "author": "Darkrai",
+      "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/vtruyen/plugin.json",
+      "version": 1,
+      "source": "https://vtruyen.com",
+      "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/vtruyen/icon.png",
+      "description": "Đọc truyện trên trang vTruyện"
     },
     {
       "name": "Mê Đọc Truyện Chữ",
