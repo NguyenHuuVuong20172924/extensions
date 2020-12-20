@@ -323,7 +323,7 @@
       "name": "Hentai2Read",
       "author": "Nhocconsr",
       "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/hentai2read/plugin.json",
-      "version": 2,
+      "version": 1,
       "source": "https://umetruyen.com",
       "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/hentai2read/icon.png",
       "description": "Đọc truyện trên trang Hentai2Read"
@@ -332,7 +332,7 @@
       "name": "Manhwahentai",
       "author": "Nhocconsr",
       "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/manhwahentai/plugin.json",
-      "version": 2,
+      "version": 1,
       "source": "https://umetruyen.com",
       "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/manhwahentai/icon.png",
       "description": "Đọc truyện trên trang Manhwahentai"
