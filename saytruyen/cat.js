@@ -1,11 +1,11 @@
-function execute(key, page) {
+function execute(url, page) {
     if (!page) page = '1';
-    var url = 'https://saytruyen.net/danh-sach-truyen.html?status=0&page='+page+'&name='+key+'&sort=last_update'
-    const doc = Http.get(url).html();
+    const genre = url.split('.')[1].split('-')[5];
+    const doc = Http.get('https://saytruyen.net/danh-sach-truyen.html?status=0&page='+page+'&name=&genre='+genre+'&sort=last_update').html();
 
-    var next = doc.select("ul.pager").select("li.active + li").text();
+    var next = doc.select("ul.pager").select("li.active + li").text()
 
-    const el = doc.select("ul#danhsachtruyen > li");
+    const el = doc.select("ul#danhsachtruyen > li")
 
     const data = [];
     for (var i = 0; i < el.size(); i++) {
@@ -16,7 +16,7 @@ function execute(key, page) {
             cover: e.select("a").first().attr("data-src"),
             description: e.select(".info-bottom span").text().replace(/\ :.*/g, ""),
             host: "https://saytruyen.net"
-        });
+        })
     }
 
     return Response.success(data, next)

@@ -1,6 +1,6 @@
 function execute(url) {
     var doc = Http.get(url).html();
-    var el = doc.select("#read-content img");
+    var el = doc.select("#lst_content img");
     var imgs = [];
     for (var i = 0; i < el.size(); i++) {
         var link = el.get(i).attr("data-original");
@@ -9,15 +9,15 @@ function execute(url) {
         }
         if (!link.startsWith("http")) {
             if (link.startsWith("/")) {
-                link = "https://saytruyen.com" + link;
+                link = "https://saytruyen.net" + link;
             } else {
-                link = "https://saytruyen.com/" + link;
+                link = "https://saytruyen.net" + link;
             }
         }
         imgs.push(link.trim())
     }
 
-    var script = doc.select("#read-content").html().match(/var imgs = (.*?);/)
+    var script = doc.select("#lst_content").html().match(/var imgs = (.*?);/)
 
     if (script) {
         script = script[1];
@@ -32,9 +32,9 @@ function execute(url) {
                 } else if (img.startsWith("://")) {
                     img = "http" + img;
                 } else if (img.startsWith("/")) {
-                    img = "https://saytruyen.com" + img;
+                    img = "https://saytruyen.net" + img;
                 } else {
-                    img = "https://saytruyen.com/" + img;
+                    img = "https://saytruyen.net" + img;
                 }
                 if (img) {
                     var newIndex = imgs.length - j - 1;
