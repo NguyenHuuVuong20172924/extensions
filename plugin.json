@@ -336,6 +336,16 @@
       "source": "https://umetruyen.com",
       "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/manhwahentai/icon.png",
       "description": "Đọc truyện trên trang Manhwahentai"
+    },
+    {
+      "name": "Truyện Nhiều",
+      "author": "Nhocconsr",
+      "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/truyennhieu/plugin.json",
+      "version": 1,
+      "source": "https://umetruyen.com",
+      "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/truyennhieu/icon.png",
+      "description": "Đọc truyện trên trang Truyện Nhiều"
     }
+  ]
   ]
 }
