@@ -278,8 +278,8 @@
       "name": "Say Truyện",
       "author": "Darkrai",
       "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/saytruyen/plugin.json",
-      "version": 5,
-      "source": "https://saytruyen.com",
+      "version": 6,
+      "source": "https://saytruyen.net",
       "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/saytruyen/icon.png",
       "description": "Đọc truyện trên trang Say Truyện"
     },
@@ -318,6 +318,24 @@
       "source": "https://umetruyen.com",
       "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/umetruyen/icon.png",
       "description": "Đọc truyện trên trang U Mê Truyện"
+    },
+    {
+      "name": "Hentai2Read",
+      "author": "Nhocconsr",
+      "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/hentai2read/plugin.json",
+      "version": 2,
+      "source": "https://umetruyen.com",
+      "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/hentai2read/icon.png",
+      "description": "Đọc truyện trên trang Hentai2Read"
+    },
+    {
+      "name": "Manhwahentai",
+      "author": "Nhocconsr",
+      "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/manhwahentai/plugin.json",
+      "version": 2,
+      "source": "https://umetruyen.com",
+      "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/manhwahentai/icon.png",
+      "description": "Đọc truyện trên trang Manhwahentai"
     }
   ]
 }

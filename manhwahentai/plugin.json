@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "name": "ManhwaHentai",
+    "author": "Nhocconsr",
+    "version": 2,
+    "source": "https://manhwahentai.me",
+    "icon": "https://i.imgur.com/KaiDwxl.png",
+    "url": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/manhwahentai/plugin.zip",
+    "regexp": "(www.)?manhwahentai.me/webtoon/[^/]+/?",
+    "description": "Đọc truyện trên trang manhwahentai.me",
+    "local": "vi-VN",
+    "language": "javascript",
+    "type": "comic"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

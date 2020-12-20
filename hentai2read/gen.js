@@ -13,7 +13,7 @@ function execute(url, page) {
             name: e.select("a > .title-text").first().text(),
             link: e.select("a").first().attr("href"),
             cover: e.select("img").first().attr("data-src"),
-            description: e.select(".chapters a").first().text(),
+            description: e.select(".btn-custom2").first().text()+' views',
             host: "https://hentai2read.com"
         })
     }
