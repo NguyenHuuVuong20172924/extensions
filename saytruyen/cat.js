@@ -13,7 +13,7 @@ function execute(url, page) {
         data.push({
             name: e.select(".info-bottom a").first().text(),
             link: e.select(".info-bottom a").first().attr("href"),
-            cover: e.select("a").first().attr("data-src").replace('//st', "https://st"),,
+            cover: e.select("a").first().attr("data-src").replace('//st', "https://st"),
             description: e.select(".info-bottom span").text().replace(/\ :.*/g, ""),
             host: "https://saytruyen.net"
         })
