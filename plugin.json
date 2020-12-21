@@ -345,7 +345,15 @@
       "source": "https://umetruyen.com",
       "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/truyennhieu/icon.png",
       "description": "Đọc truyện trên trang Truyện Nhiều"
+    },
+    {
+      "name": "Say Hentai",
+      "author": "Nhocconsr",
+      "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/sayhentai/plugin.json",
+      "version": 1,
+      "source": "https://sayhentai.net",
+      "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/sayhentai/icon.png",
+      "description": "Đọc truyện trên trang SayHentai"
     }
-  ]
   ]
 }
