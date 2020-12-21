@@ -1,6 +1,7 @@
-function execute(url, page) {
+function execute(key, page) {
     if (!page) page = '1';
-    const doc = Http.get(url + '?status=0&page='+page+'&name=&genre=&sort=last_update').html();
+    var url = 'https://sayhentai.net/danh-sach-truyen.html?status=0&page='+page+'&name='+key+'&sort=last_update'
+    const doc = Http.get(url).html();
 
     var next = doc.select("ul.pager").select("li.active + li").text();
 
@@ -12,10 +13,10 @@ function execute(url, page) {
         data.push({
             name: e.select(".info-bottom a").first().text(),
             link: e.select(".info-bottom a").first().attr("href"),
-            cover: e.select("a").first().attr("data-src").replace('//st', "https://st"),
+            cover: e.select("a").first().attr("data-src"),
             description: e.select(".info-bottom span").text().replace(/\ :.*/g, ""),
-            host: "https://saytruyen.net"
-        })
+            host: "https://sayhentai.net"
+        });
     }
 
     return Response.success(data, next)

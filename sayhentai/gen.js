@@ -5,7 +5,7 @@ function execute(url, page) {
     var next = doc.select("ul.pager").select("li.active + li").text();
 
     const el = doc.select("ul#danhsachtruyen > li");
-
+    const base = 'https://sayhentai.net/app'
     const data = [];
     for (var i = 0; i < el.size(); i++) {
         var e = el.get(i);
@@ -14,7 +14,7 @@ function execute(url, page) {
             link: e.select(".info-bottom a").first().attr("href"),
             cover: e.select("a").first().attr("data-src").replace('//st', "https://st"),
             description: e.select(".info-bottom span").text().replace(/\ :.*/g, ""),
-            host: "https://saytruyen.net"
+            host: "https://sayhentai.net"
         })
     }
 

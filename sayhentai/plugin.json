@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "name": "Say Hentai",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://sayhentai.net",
+    "icon": "https://raw.githubusercontent.com/pemiu01/extensions/master/sayhentai/icon.png",
+    "url": "https://raw.githubusercontent.com/pemiu01/extensions/master/sayhentai/plugin.zip",
+    "regexp": "(www.)?sayhentai.net/[^/]+.html$",
+    "description": "Đọc truyện trên trang Say Hentai",
+    "local": "vi-VN",
+    "language": "javascript",
+	"type": "comic"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
