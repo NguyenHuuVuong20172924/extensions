@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "name": "Truyện Tranh LH",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://truyentranhlh.net",
+    "icon": "https://i.imgur.com/R2Afhv3.png",
+    "url": "https://raw.githubusercontent.com/monnhocon/extensions/master/truyentranhlh/plugin.zip",
+    "regexp": "(www.)?truyentranhlh.net/truyen/[^/]+/?",
+    "description": "Đọc truyện trên trang truyentranhlh.net",
+    "local": "vi-VN",
+    "language": "javascript",
+    "type": "comic"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
