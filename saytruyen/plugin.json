@@ -4,7 +4,7 @@
     "author": "Darkrai",
     "version": 6,
     "source": "https://saytruyen.net",
-    "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/saytruyen/icon.png",
+    "icon": "https://raw.githubusercontent.com/monnhoccon/extensions/master/sayhentai/icon.png",
     "url": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/saytruyen/plugin.zip",
     "regexp": "(www.)?saytruyen.net/[^/]+.html$",
     "description": "Đọc truyện trên trang Say Truyện",
