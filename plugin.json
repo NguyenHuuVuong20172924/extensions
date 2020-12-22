@@ -325,35 +325,8 @@
       "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/hentai2read/plugin.json",
       "version": 1,
       "source": "https://hentai2read.com",
-      "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/hentai2read/icon.png",
+      "icon": "https://hentai2read.com/apple-touch-icon.png",
       "description": "Đọc truyện trên trang Hentai2Read"
-    },
-    {
-      "name": "Manhwahentai",
-      "author": "Nhocconsr",
-      "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/manhwahentai/plugin.json",
-      "version": 1,
-      "source": "https://manhwahentai.me.com",
-      "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/manhwahentai/icon.png",
-      "description": "Đọc truyện trên trang Manhwahentai"
-    },
-    {
-      "name": "Truyện Nhiều",
-      "author": "Nhocconsr",
-      "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/truyennhieu/plugin.json",
-      "version": 1,
-      "source": "https://truyennhieu.com",
-      "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/truyennhieu/icon.png",
-      "description": "Đọc truyện trên trang Truyện Nhiều"
-    },
-    {
-      "name": "Say Hentai",
-      "author": "Nhocconsr",
-      "path": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/sayhentai/plugin.json",
-      "version": 1,
-      "source": "https://sayhentai.net",
-      "icon": "https://raw.githubusercontent.com/Darkrai9x/extensions/master/sayhentai/icon.png",
-      "description": "Đọc truyện trên trang SayHentai"
     }
   ]
 }
